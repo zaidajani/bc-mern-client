@@ -1,3 +1,3 @@
 Blood pressure monitor
 
-<img src="./demo.gif" />
+<img src="./demo-big.gif" />
