@@ -15,7 +15,7 @@ export const LoginComp = () => {
       setError("Please fill in all fields");
     }
     try {
-      const url = "http://localhost:4000/auth";
+      const url = "https://blood-pressure-api.herokuapp.com/auth";
       const data = await axios.post(url, {
         email,
         password,

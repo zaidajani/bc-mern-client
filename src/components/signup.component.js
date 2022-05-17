@@ -32,7 +32,7 @@ export const SignupComp = () => {
       return setError("Passwords do not match");
     }
     try {
-      const url = "http://localhost:4000/user/";
+      const url = "https://blood-pressure-api.herokuapp.com/user/";
       axios.post(url, {
         username,
         firstName,

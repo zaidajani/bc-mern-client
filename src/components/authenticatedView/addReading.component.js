@@ -25,7 +25,7 @@ export const NewScreen = () => {
 
   useEffect(() => {
     const verifyUser = async () => {
-      fetch("http://localhost:4000/verify", {
+      fetch("https://blood-pressure-api.herokuapp.com/verify", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -44,7 +44,7 @@ export const NewScreen = () => {
     };
     verifyUser();
     async function getUserData() {
-      let url = "http://localhost:4000/user/userdata";
+      let url = "https://blood-pressure-api.herokuapp.com/user/userdata";
 
       const user = await axios.get(url, {
         headers: {
@@ -59,7 +59,7 @@ export const NewScreen = () => {
   });
 
   const handleSubmit = async () => {
-    let url = "http://localhost:4000/user/new-reading";
+    let url = "https://blood-pressure-api.herokuapp.com/user/new-reading";
 
     if (!type || !level) {
       return alert("Please fill in all fields");
