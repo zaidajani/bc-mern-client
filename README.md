@@ -1,3 +1,3 @@
-Blood pressure monitor
+# Blood glucose monitor
 
 <img src="./demo-big.gif" />
