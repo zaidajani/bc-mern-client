@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Varela&family=Varela+Round&display=swap');
+
+.bodyClass {
+  background-image: url("./../static//bg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.elementHolder {
+  padding: 30px;
+  width: 700px;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff9e9;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signupBranding {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.signupBranding p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+.spacer {
+  padding: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputText {
+  height: 40px;
+  width: 75%;
+  border: none;
+  border-radius: 30px;
+  background-color: #FCE7D6;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: 'Varela', sans-serif;
+}
+
+.passwordInput {
+  height: 40px;
+  width: 45%;
+  border: none;
+  border-radius: 30px;
+  background-color: #FCE7D6;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: 'Varela', sans-serif;
+}
+
+.passwordHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.createUserButton {
+  background-color: #F8C26A;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.createUserButton p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.createUserButton:hover {
+  background-color: #feb94a;
+}
+
+.error {
+  height: 40px;
+  width: 75%;
+  border: none;
+  border-radius: 30px;
+  background-color: #fb3f00;
+  padding-left: 30px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Varela', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logintxt {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Varela', sans-serif;
+}
